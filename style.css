@@ -75,6 +75,9 @@
 }
 .button:hover {
   color: #3a3a3a;
+  .button__icon {
+     transform: rotateZ(0);
+  }
 }
 .button__icon {
   height: 2em;
