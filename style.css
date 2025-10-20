@@ -1,24 +1,24 @@
 /* Basic Style */
-body {
+.page {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
 }
-.eisenhower-matrix {
+.matrix {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.eisenhower-matrix img {
+.matrix img {
   width: 100%;
 }
-.eisenhower-matrix .more-inf {
+.matrix .more-inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.eisenhower-matrix {
+.matrix {
 text-align: center;
 }
 }
@@ -89,7 +89,7 @@ label[for="new-task"] {
   display: block;
   margin: 0 0 20px;
 }
-input#new-task {
+#new-task {
   width: 318px;
 }
 
@@ -128,7 +128,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+ul#done-list label {
   text-decoration: line-through
   color: #888;
 }
@@ -138,11 +138,11 @@ ul li input[type="text"] {
   display:none
 }
 
-ul li.editMode input[type="text"] {
+ul li.edit-mode input[type="text"] {
   display:inline-block;
   width:224px
 }
 
-ul li.editMode label {
+ul li.edit-mode label {
   display:none;
 }
